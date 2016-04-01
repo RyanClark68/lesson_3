@@ -1,0 +1,80 @@
+Question 1.
+1, 2, 2, 3
+
+Question 2
+1. != means is not equal 
+2.
+3. An bang after a method name means that the method may change the state of the method.
+4. ? : ternary operator for if...else
+5.A question mark after a method name means it should return a boolean value.
+6. !! turns object into boolean equivalent
+
+Question 3.
+
+advice = "Few things in life are as important as house training your pet dinosaur."
+
+advice ["important"] = "urgent"
+
+puts advice
+
+Question 4.
+
+delete_at will delete the number located in the #1 position which would be #2. delete will delete the number called which in this method is #1.
+
+Question 5
+
+advice = "Few things in life are as important as house training your pet dinosaur."
+
+advice ["important"] = "urgent"
+
+puts advice
+
+Question 6
+
+advice = "Few things in life are as important as house training your pet dinosaur."
+
+advice ["important"] = "urgent"
+
+puts advice
+
+Question 7
+
+def add_eight(number)
+  number + 8
+end
+
+number = 2
+
+how_deep = "number"
+5.times {how_deep.gsub!("number", "add_eight(number)")}
+
+
+puts eval(how_deep)
+
+
+Question 8
+
+flintstones = ["Fred", "Wilma"]
+flintstones << ["Barney", "Betty"]
+flintstones << ["BamBam", "Pebbles"]
+
+flintstones.flatten!
+p flintstones
+
+    
+Question 9
+
+flintstones = {"Fred" => 0, "Wilma" => 1, "Barney" => 2, "Betty" => 3, "BamBam" => 4, "Pebbles" => 5}
+
+puts flintstones.assoc("Barney")
+
+Question 10
+
+flintstones = ["Fred", "Barney", "Wilma", "Betty", "Pebbles", "BamBam"]
+
+flintstones = [[:Fred, 0], [:Barney, 1], [:Wilma, 2], [:Betty, 3], [:Pebbles, 4], [:BamBam, 5]].to_h
+
+puts flintstones
+
+
+
